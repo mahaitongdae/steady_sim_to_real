@@ -1,0 +1,1 @@
+CUDA_DEVICE_WORKSTATION = 'cuda:0'

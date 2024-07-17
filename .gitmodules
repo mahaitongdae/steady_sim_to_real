@@ -1,0 +1,8 @@
+[submodule "deploy/firmware/crazyflie-firmware"]
+	path = deploy/firmware/crazyflie-firmware
+	url = https://github.com/mahaitongdae/crazyflie-firmware
+	branch = published
+[submodule "deploy/envs/gym-pybullet-drones"]
+	path = deploy/envs/gym-pybullet-drones
+	url = https://github.com/mahaitongdae/gym-pybullet-drones.git
+	branch = dev_haitong

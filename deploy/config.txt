@@ -1,0 +1,26 @@
+1     # version
+512   # buffer size in bytes
+log   # file name
+0     # enable on startup (0/1)
+on:fixedFrequency
+240     # frequency
+1     # mode (0: disabled, 1: synchronous stabilizer, 2: asynchronous)
+stabilizer.roll
+stabilizer.pitch
+stabilizer.yaw
+ctrlMel.pos_error_x
+ctrlMel.pos_error_y
+ctrlMel.pos_error_z
+stateEstimate.vx
+stateEstimate.vy
+stateEstimate.vz
+stateEstimateZ.rateRoll
+stateEstimateZ.ratePitch
+stateEstimateZ.rateYaw
+motor.m1req
+motor.m2req
+motor.m3req
+motor.m4req
+ctrlMel.i_err_mx
+ctrlMel.i_err_my
+ctrlMel.i_err_mz
