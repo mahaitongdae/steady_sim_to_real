@@ -38,8 +38,9 @@ git clone --recursive https://github.com/mahaitongdae/steady_sim_to_real.git
 - install environments (No need to follow the readme inside):
   ```shell
   cd steady_sim_to_real
-  cd deploy/envs
-  pip3 install -e . 
+  cd deploy/envs/gym_pybullet/drones
+  pip3 install -e .
+  pip3 install gym tensorboardX seaborn
   ```
 
 ## offline training
